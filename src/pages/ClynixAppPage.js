@@ -454,7 +454,7 @@ const ClynixAppPage = () => {
                 </button>
             </div>
             </div>
-            
+
             {/* Explore Now Button - Below the cards */}
             <div className="text-center mt-12 sm:mt-16">
             <button
@@ -471,6 +471,232 @@ const ClynixAppPage = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
             </button>
+            </div>
+        </div>
+        </div>
+
+        {/* Our Team Members Section */}
+        <div className="relative py-16 sm:py-20 bg-white z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            {/* Section Header */}
+            <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Our Team Members
+            </h2>
+            <div className="w-20 h-1 bg-purple-600 mx-auto mb-4 rounded-full"></div>
+            <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
+                A team of skilled professionals delivering innovative and scalable digital solutions.
+            </p>
+            </div>
+
+            {/* Team Members Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            {/* Team Member 1 - Ashok Varma */}
+            <div className="group bg-gradient-to-br from-white via-purple-50 to-purple-100 rounded-2xl p-6 text-center shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300">
+                <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Ashok Varma</h3>
+                <p className="text-purple-600 font-medium mb-3">Founder & Chairman</p>
+                <div className="flex justify-center gap-3">
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                    </svg>
+                </button>
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0021.577-12.184c0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </button>
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.771-.773 1.771-1.729V1.729C24 .774 23.204 0 22.225 0z"/>
+                    </svg>
+                </button>
+                </div>
+            </div>
+
+            {/* Team Member 2 - Priyanka Varma */}
+            <div className="group bg-gradient-to-br from-white via-purple-50 to-purple-100 rounded-2xl p-6 text-center shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300">
+                <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Priyanka Varma</h3>
+                <p className="text-purple-600 font-medium mb-3">Managing Director</p>
+                <div className="flex justify-center gap-3">
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                    </svg>
+                </button>
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0021.577-12.184c0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </button>
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.771-.773 1.771-1.729V1.729C24 .774 23.204 0 22.225 0z"/>
+                    </svg>
+                </button>
+                </div>
+            </div>
+
+            {/* Team Member 3 - Vijay Kumar */}
+            <div className="group bg-gradient-to-br from-white via-purple-50 to-purple-100 rounded-2xl p-6 text-center shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300">
+                <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Vijay Kumar</h3>
+                <p className="text-purple-600 font-medium mb-3">Admin & Graphic Designer</p>
+                <div className="flex justify-center gap-3">
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                    </svg>
+                </button>
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0021.577-12.184c0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </button>
+                <button className="p-2 bg-purple-100 rounded-full hover:bg-purple-200 transition-colors">
+                    <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.771-.773 1.771-1.729V1.729C24 .774 23.204 0 22.225 0z"/>
+                    </svg>
+                </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+ 
+ 
+        {/* FAQ Section */}
+        <div className="relative py-16 sm:py-20 bg-gradient-to-br from-white via-purple-50 to-purple-100 z-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            {/* Section Header */}
+            <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Frequently asked Questions
+            </h2>
+            <div className="w-20 h-1 bg-purple-600 mx-auto mb-4 rounded-full"></div>
+            <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
+                Find quick answers to your questions about our integrated healthcare services, IT solutions, and how SimcuraRX supports your enterprise needs.
+            </p>
+            </div>
+
+            {/* FAQ Items */}
+            <div className="space-y-4">
+            
+            {/* FAQ 1 - What does SimcuraRX do? */}
+            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
+                <span className="text-lg font-semibold text-gray-900">What does SimcuraRX do?</span>
+                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+                </button>
+                <div className="px-6 pb-4">
+                <p className="text-gray-600 leading-relaxed">
+                    SimcuraRX provides integrated healthcare and IT solutions, including doctor consultations, medicine delivery, diagnostics, and custom healthcare software development.
+                </p>
+                </div>
+            </div>
+
+            {/* FAQ 2 - Are you legally registered? */}
+            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
+                <span className="text-lg font-semibold text-gray-900">Are you legally registered?</span>
+                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+                </button>
+                <div className="px-6 pb-4">
+                <p className="text-gray-600 leading-relaxed">
+                    Yes, SimcuraRX Pvt. Ltd. is a professionally registered company complying with all legal and healthcare regulations.
+                </p>
+                </div>
+            </div>
+
+            {/* FAQ 3 - How do I verify your registrations? */}
+            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
+                <span className="text-lg font-semibold text-gray-900">How do I verify your registrations?</span>
+                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+                </button>
+                <div className="px-6 pb-4">
+                <p className="text-gray-600 leading-relaxed">
+                    You can request our registration certificates and licenses through our contact form. We are transparent about our credentials.
+                </p>
+                </div>
+            </div>
+
+            {/* FAQ 4 - Do you provide B2B services? */}
+            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
+                <span className="text-lg font-semibold text-gray-900">Do you provide B2B services?</span>
+                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+                </button>
+                <div className="px-6 pb-4">
+                <p className="text-gray-600 leading-relaxed">
+                    Yes, we offer comprehensive B2B services including enterprise healthcare solutions, custom software development, and IT consulting.
+                </p>
+                </div>
+            </div>
+
+            {/* FAQ 5 - Is my health data secure? */}
+            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
+                <span className="text-lg font-semibold text-gray-900">Is my health data secure?</span>
+                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+                </button>
+                <div className="px-6 pb-4">
+                <p className="text-gray-600 leading-relaxed">
+                    Absolutely. We use enterprise-grade encryption and follow strict data protection protocols to ensure your health information remains confidential and secure.
+                </p>
+                </div>
+            </div>
+            </div>
+
+            {/* Still have questions? Section */}
+            <div className="mt-12 text-center bg-white rounded-2xl p-8 shadow-md">
+            <h3 className="text-2xl font-bold text-gray-900 mb-3">Still have questions?</h3>
+            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+                Book a call with our team to learn how SimcuraRx can help you change the way you manage your healthcare business forever.
+            </p>
+            <button 
+                onClick={() => navigate('/contact')}
+                className="inline-flex items-center gap-2 px-8 py-3 bg-purple-600 text-white font-semibold rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg transition-all duration-300 hover:scale-105 group"
+            >
+                Contact Us
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+            </button>
+            </div>
+
+            {/* Footer Text */}
+            <div className="mt-12 text-center">
+            <p className="text-sm text-gray-500">
+                Simcura RX is a technology and digital marketing company delivering innovative solutions to help businesses succeed online.
+            </p>
             </div>
         </div>
         </div>
