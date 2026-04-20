@@ -582,124 +582,200 @@ const ClynixAppPage = () => {
  
  
         {/* FAQ Section */}
-        <div className="relative py-16 sm:py-20 bg-gradient-to-br from-white via-purple-50 to-purple-100 z-10">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            {/* Section Header */}
-            <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Frequently asked Questions
-            </h2>
-            <div className="w-20 h-1 bg-purple-600 mx-auto mb-4 rounded-full"></div>
-            <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
-                Find quick answers to your questions about our integrated healthcare services, IT solutions, and how SimcuraRX supports your enterprise needs.
-            </p>
-            </div>
+        {/* FAQ Section */}
+<div className="relative py-16 sm:py-20 bg-gradient-to-br from-white via-purple-50 to-purple-100 z-10">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    {/* Section Header */}
+    <div className="text-center mb-12 sm:mb-16">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        Frequently asked Questions
+      </h2>
+      <div className="w-20 h-1 bg-purple-600 mx-auto mb-4 rounded-full"></div>
+      <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
+        Find quick answers to your questions about our integrated healthcare services, IT solutions, and how SimcuraRX supports your enterprise needs.
+      </p>
+    </div>
 
-            {/* FAQ Items */}
-            <div className="space-y-4">
-            
-            {/* FAQ 1 - What does SimcuraRX do? */}
-            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
-                <span className="text-lg font-semibold text-gray-900">What does SimcuraRX do?</span>
-                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                </button>
-                <div className="px-6 pb-4">
-                <p className="text-gray-600 leading-relaxed">
-                    SimcuraRX provides integrated healthcare and IT solutions, including doctor consultations, medicine delivery, diagnostics, and custom healthcare software development.
-                </p>
-                </div>
-            </div>
-
-            {/* FAQ 2 - Are you legally registered? */}
-            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
-                <span className="text-lg font-semibold text-gray-900">Are you legally registered?</span>
-                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                </button>
-                <div className="px-6 pb-4">
-                <p className="text-gray-600 leading-relaxed">
-                    Yes, SimcuraRX Pvt. Ltd. is a professionally registered company complying with all legal and healthcare regulations.
-                </p>
-                </div>
-            </div>
-
-            {/* FAQ 3 - How do I verify your registrations? */}
-            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
-                <span className="text-lg font-semibold text-gray-900">How do I verify your registrations?</span>
-                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                </button>
-                <div className="px-6 pb-4">
-                <p className="text-gray-600 leading-relaxed">
-                    You can request our registration certificates and licenses through our contact form. We are transparent about our credentials.
-                </p>
-                </div>
-            </div>
-
-            {/* FAQ 4 - Do you provide B2B services? */}
-            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
-                <span className="text-lg font-semibold text-gray-900">Do you provide B2B services?</span>
-                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                </button>
-                <div className="px-6 pb-4">
-                <p className="text-gray-600 leading-relaxed">
-                    Yes, we offer comprehensive B2B services including enterprise healthcare solutions, custom software development, and IT consulting.
-                </p>
-                </div>
-            </div>
-
-            {/* FAQ 5 - Is my health data secure? */}
-            <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-                <button className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors">
-                <span className="text-lg font-semibold text-gray-900">Is my health data secure?</span>
-                <svg className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                </button>
-                <div className="px-6 pb-4">
-                <p className="text-gray-600 leading-relaxed">
-                    Absolutely. We use enterprise-grade encryption and follow strict data protection protocols to ensure your health information remains confidential and secure.
-                </p>
-                </div>
-            </div>
-            </div>
-
-            {/* Still have questions? Section */}
-            <div className="mt-12 text-center bg-white rounded-2xl p-8 shadow-md">
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">Still have questions?</h3>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-                Book a call with our team to learn how SimcuraRx can help you change the way you manage your healthcare business forever.
-            </p>
-            <button 
-                onClick={() => navigate('/contact')}
-                className="inline-flex items-center gap-2 px-8 py-3 bg-purple-600 text-white font-semibold rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg transition-all duration-300 hover:scale-105 group"
-            >
-                Contact Us
-                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-            </button>
-            </div>
-
-            {/* Footer Text */}
-            <div className="mt-12 text-center">
-            <p className="text-sm text-gray-500">
-                Simcura RX is a technology and digital marketing company delivering innovative solutions to help businesses succeed online.
-            </p>
-            </div>
+    {/* FAQ Items */}
+    <div className="space-y-4">
+      
+      {/* FAQ 1 - What does SimcuraRX do? */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+        <button 
+          onClick={() => {
+            const answer = document.getElementById('faq-answer-1');
+            const icon = document.getElementById('faq-icon-1');
+            if (answer.classList.contains('max-h-0')) {
+              answer.classList.remove('max-h-0', 'opacity-0');
+              answer.classList.add('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.add('rotate-180');
+            } else {
+              answer.classList.add('max-h-0', 'opacity-0');
+              answer.classList.remove('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.remove('rotate-180');
+            }
+          }}
+          className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors"
+        >
+          <span className="text-lg font-semibold text-gray-900">What does SimcuraRX do?</span>
+          <svg id="faq-icon-1" className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="faq-answer-1" className="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <p className="text-gray-600 leading-relaxed px-6">
+            SimcuraRX provides integrated healthcare and IT solutions, including doctor consultations, medicine delivery, diagnostics, and custom healthcare software development.
+          </p>
         </div>
+      </div>
+
+      {/* FAQ 2 - Are you legally registered? */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+        <button 
+          onClick={() => {
+            const answer = document.getElementById('faq-answer-2');
+            const icon = document.getElementById('faq-icon-2');
+            if (answer.classList.contains('max-h-0')) {
+              answer.classList.remove('max-h-0', 'opacity-0');
+              answer.classList.add('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.add('rotate-180');
+            } else {
+              answer.classList.add('max-h-0', 'opacity-0');
+              answer.classList.remove('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.remove('rotate-180');
+            }
+          }}
+          className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors"
+        >
+          <span className="text-lg font-semibold text-gray-900">Are you legally registered?</span>
+          <svg id="faq-icon-2" className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="faq-answer-2" className="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <p className="text-gray-600 leading-relaxed px-6">
+            Yes, SimcuraRX Pvt. Ltd. is a professionally registered company complying with all legal and healthcare regulations.
+          </p>
         </div>
+      </div>
+
+      {/* FAQ 3 - How do I verify your registrations? */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+        <button 
+          onClick={() => {
+            const answer = document.getElementById('faq-answer-3');
+            const icon = document.getElementById('faq-icon-3');
+            if (answer.classList.contains('max-h-0')) {
+              answer.classList.remove('max-h-0', 'opacity-0');
+              answer.classList.add('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.add('rotate-180');
+            } else {
+              answer.classList.add('max-h-0', 'opacity-0');
+              answer.classList.remove('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.remove('rotate-180');
+            }
+          }}
+          className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors"
+        >
+          <span className="text-lg font-semibold text-gray-900">How do I verify your registrations?</span>
+          <svg id="faq-icon-3" className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="faq-answer-3" className="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <p className="text-gray-600 leading-relaxed px-6">
+            You can request our registration certificates and licenses through our contact form. We are transparent about our credentials.
+          </p>
+        </div>
+      </div>
+
+      {/* FAQ 4 - Do you provide B2B services? */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+        <button 
+          onClick={() => {
+            const answer = document.getElementById('faq-answer-4');
+            const icon = document.getElementById('faq-icon-4');
+            if (answer.classList.contains('max-h-0')) {
+              answer.classList.remove('max-h-0', 'opacity-0');
+              answer.classList.add('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.add('rotate-180');
+            } else {
+              answer.classList.add('max-h-0', 'opacity-0');
+              answer.classList.remove('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.remove('rotate-180');
+            }
+          }}
+          className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors"
+        >
+          <span className="text-lg font-semibold text-gray-900">Do you provide B2B services?</span>
+          <svg id="faq-icon-4" className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="faq-answer-4" className="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <p className="text-gray-600 leading-relaxed px-6">
+            Yes, we offer comprehensive B2B services including enterprise healthcare solutions, custom software development, and IT consulting.
+          </p>
+        </div>
+      </div>
+
+      {/* FAQ 5 - Is my health data secure? */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+        <button 
+          onClick={() => {
+            const answer = document.getElementById('faq-answer-5');
+            const icon = document.getElementById('faq-icon-5');
+            if (answer.classList.contains('max-h-0')) {
+              answer.classList.remove('max-h-0', 'opacity-0');
+              answer.classList.add('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.add('rotate-180');
+            } else {
+              answer.classList.add('max-h-0', 'opacity-0');
+              answer.classList.remove('max-h-96', 'opacity-100', 'pb-4');
+              icon.classList.remove('rotate-180');
+            }
+          }}
+          className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-purple-50 transition-colors"
+        >
+          <span className="text-lg font-semibold text-gray-900">Is my health data secure?</span>
+          <svg id="faq-icon-5" className="w-5 h-5 text-purple-600 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="faq-answer-5" className="max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <p className="text-gray-600 leading-relaxed px-6">
+            Absolutely. We use enterprise-grade encryption and follow strict data protection protocols to ensure your health information remains confidential and secure.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Still have questions? Section */}
+    <div className="mt-12 text-center bg-white rounded-2xl p-8 shadow-md">
+      <h3 className="text-2xl font-bold text-gray-900 mb-3">Still have questions?</h3>
+      <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+        Book a call with our team to learn how SimcuraRx can help you change the way you manage your healthcare business forever.
+      </p>
+      <button 
+        onClick={() => navigate('/contact')}
+        className="inline-flex items-center gap-2 px-8 py-3 bg-purple-600 text-white font-semibold rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg transition-all duration-300 hover:scale-105 group"
+      >
+        Contact Us
+        <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </button>
+    </div>
+
+    {/* Footer Text */}
+    <div className="mt-12 text-center">
+      <p className="text-sm text-gray-500">
+        Simcura RX is a technology and digital marketing company delivering innovative solutions to help businesses succeed online.
+      </p>
+    </div>
+  </div>
+</div>
     </div>
   );
 };
