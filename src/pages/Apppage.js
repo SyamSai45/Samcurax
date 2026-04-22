@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import appHeroImage from '../assets/App-hero1.png';
 import appStoreBtn from '../assets/App_Store_btn.png';
 import googlePlayBtn from '../assets/PlayStore_btn.png';

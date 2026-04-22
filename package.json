@@ -1,5 +1,5 @@
 {
-  "homepage": "https://simcurarx.github.io/simcurarx",
+  "homepage": ".",
   "name": "simcurarx",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +21,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -45,4 +46,5 @@
     "postcss": "^8.5.10",
     "tailwindcss": "^3.4.19"
   }
+  
 }
