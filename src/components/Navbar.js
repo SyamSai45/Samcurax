@@ -681,7 +681,7 @@ const Navbar = () => {
 
                 <div className="hidden lg:flex lg:items-center lg:space-x-3">
                   <button
-                    onClick={handleClynixApp}
+                    onClick={( )=> navigate('/clynix')} 
                     className={`px-5 py-2 rounded-full font-medium text-sm transition-all duration-300 cursor-pointer ${
                       scrolled
                         ? 'bg-white/60 backdrop-blur-sm text-purple-600 hover:bg-white/80 border border-white/50'
