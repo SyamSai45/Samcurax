@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/simcurarx/static/css/main.0324bfa1.css",
+    "main.js": "/simcurarx/static/js/main.bc7f7fc8.js",
+    "static/media/headerlogo.png": "/simcurarx/static/media/headerlogo.4f3be717f3e96d40da9a.png",
+    "static/media/simkuralogo.png": "/simcurarx/static/media/simkuralogo.6740197f52239b10f978.png",
+    "static/media/topAppimage.png": "/simcurarx/static/media/topAppimage.684411cbdeb19afb05ae.png",
+    "static/media/Contact1.png": "/simcurarx/static/media/Contact1.2d0f87ec67462d05a539.png",
+    "static/media/Contact2.png": "/simcurarx/static/media/Contact2.7d37f5b8eb5e43fd30e7.png",
+    "static/media/bottomAppImage.png": "/simcurarx/static/media/bottomAppImage.65f5ca6f7ed9fc620886.png",
+    "static/media/teamImage3.png": "/simcurarx/static/media/teamImage3.a14f1e7aa7da770e0299.png",
+    "static/media/teamImage1.png": "/simcurarx/static/media/teamImage1.c77f1e614a9a1177fda3.png",
+    "static/media/teamImage2.png": "/simcurarx/static/media/teamImage2.6514878243f88f591609.png",
+    "static/media/careerImage.png": "/simcurarx/static/media/careerImage.07b2a3f6712a6add5d12.png",
+    "static/media/App-hero1.png": "/simcurarx/static/media/App-hero1.e396a26805efdef6489b.png",
+    "static/media/Clynix-Logo.png": "/simcurarx/static/media/Clynix-Logo.e1dabce3b994d1e06e7f.png",
+    "static/media/E-Commerce.png": "/simcurarx/static/media/E-Commerce.eb267762c61e1e718236.png",
+    "static/media/Digital.png": "/simcurarx/static/media/Digital.dfc562d593f850a9340a.png",
+    "static/media/partnership-icon-1.png": "/simcurarx/static/media/partnership-icon-1.877df4e758c6de05bfd3.png",
+    "static/media/partnership-icon-3.png": "/simcurarx/static/media/partnership-icon-3.c96cf4e833cc0af48e77.png",
+    "index.html": "/simcurarx/index.html",
+    "main.0324bfa1.css.map": "/simcurarx/static/css/main.0324bfa1.css.map",
+    "main.bc7f7fc8.js.map": "/simcurarx/static/js/main.bc7f7fc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0324bfa1.css",
+    "static/js/main.bc7f7fc8.js"
+  ]
+}
