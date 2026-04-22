@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import footerLogo from '../assets/headerlogo.png';
 import appHeroImage from '../assets/App-hero1.png';
 import appStoreBtn from '../assets/App_Store_btn.png';
 import googlePlayBtn from '../assets/PlayStore_btn.png';
@@ -76,7 +75,6 @@ const ReportIcon = () => (
 );
 
 const AppPage = () => {
-  const navigate = useNavigate();
   const [formData, setFormData] = React.useState({
     name: '',
     mobile: '',
@@ -551,18 +549,18 @@ const AppPage = () => {
               <ul className="space-y-2">
                 <li><a href="/contact" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Contact us</a></li>
                 <li><a href="/about" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">About us</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">FAQ's</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Terms of services</a></li>
+                <li><a href="/" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">FAQ's</a></li>
+                <li><a href="/" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Terms of services</a></li>
               </ul>
             </div>
             
             <div>
               <h3 className="text-lg font-semibold mb-4">Services</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Website & Mobile App Development</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Digital Marketing</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">E-commerce solutions</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Custom software development</a></li>
+                <li><a href="/services" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Website & Mobile App Development</a></li>
+                <li><a href="/services" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Digital Marketing</a></li>
+                <li><a href="/services" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">E-commerce solutions</a></li>
+                <li><a href="/services" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">Custom software development</a></li>
               </ul>
             </div>
             

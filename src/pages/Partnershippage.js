@@ -1262,7 +1262,7 @@ const NoteView = ({ onBack, onConfirm }) => (
         {/* Legal notice */}
         <div className="border-l-[3px] border-purple-600 pl-4 py-3 bg-[#f8f7ff] rounded-r-xl mb-5 text-[13px] text-gray-700 leading-relaxed">
           By submitting this partnership inquiry, you acknowledge that you have read and agree to our{' '}
-          <a href="#" className="text-purple-600 font-semibold hover:underline">Terms of Service</a>.
+          <a href="/" className="text-purple-600 font-semibold hover:underline">Terms of Service</a>.
           You consent to be contacted by Simcura RX via the provided email or phone number for the
           purpose of evaluating this partnership.
         </div>
@@ -1275,14 +1275,14 @@ const NoteView = ({ onBack, onConfirm }) => (
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6 text-[13px]">
           <div className="flex gap-5">
-            <a href="#" className="text-purple-600 font-medium hover:underline inline-flex items-center gap-1">
+            <a href="/" className="text-purple-600 font-medium hover:underline inline-flex items-center gap-1">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                   d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
               Full Privacy Policy
             </a>
-            <a href="#" className="text-purple-600 font-medium hover:underline">Compliance Standards</a>
+            <a href="/" className="text-purple-600 font-medium hover:underline">Compliance Standards</a>
           </div>
           <div className="flex items-center gap-1.5 text-gray-400">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1516,7 +1516,7 @@ const PageFooter = () => (
       </p>
       <div className="flex items-center justify-center" style={{ gap: 24 }}>
         {['Privacy Policy', 'Terms of Service', 'Cookie Settings'].map((link) => (
-          <a key={link} href="#" className="text-[13px] text-gray-400 hover:text-purple-600 transition-colors">
+          <a key={link} href="/" className="text-[13px] text-gray-400 hover:text-purple-600 transition-colors">
             {link}
           </a>
         ))}
