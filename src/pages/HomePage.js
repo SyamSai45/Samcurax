@@ -150,7 +150,7 @@ const visibleCards = teamMembers.slice(currentIndex, currentIndex + 3);
   ];
 
   return (
-    <div className="min-h-screen bg-white relative overflow-x-hidden">
+    <div className="min-h-screen bg-white relative overflow-x-hidden pt-[80px] md:pt-[90px]">
       
       {/* Background Blur Circles */}
       <div 
