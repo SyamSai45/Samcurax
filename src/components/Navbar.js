@@ -598,6 +598,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.png';
+import footerLogo from '../assets/FooterIcons/footerLogo.png';
+
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -773,33 +775,27 @@ const Navbar = () => {
               }}
             >
               <div className="w-full px-3 sm:px-5 md:px-6">
-                <div className="flex justify-between items-center">
-                  
-                  <div className="flex-shrink-0 flex items-center">
-                    <a 
-                      href="/" 
-                      className="flex items-center group"
-                      onClick={(e) => handleNavClick('Home', '/', e)}
-                    >
-                      {isServicesPage ? (
-                        // White logo text for Services page dark theme
-                        <span className="text-white font-bold text-xl sm:text-2xl md:text-3xl tracking-tight transition-all duration-500 group-hover:scale-105">
-                          Simcura<span className="text-sm sm:text-base align-top">®</span>
-                        </span>
-                      ) : (
-                        // Regular logo image for light theme
-                        <img 
-                          src={logo} 
-                          alt="Simcura" 
-                          className={`transition-all duration-500 ${
-                            scrolled 
-                              ? 'h-10 sm:h-11 md:h-12' 
-                              : 'h-12 sm:h-14 md:h-16'
-                          } w-auto object-contain transition-transform duration-200 group-hover:scale-105`}
-                        />
-                      )}
-                    </a>
-                  </div>
+              <div className="flex justify-between items-center">
+                
+                <div className="flex-shrink-0 flex items-center">
+                  <a 
+                    href="/" 
+                    className="flex items-center group"
+                    onClick={(e) => handleNavClick('Home', '/', e)}
+                  >
+                    {/* Always show logo image on all pages */}
+                    <img 
+                      src={logo} 
+                      alt="Simcura" 
+                      className={`transition-all duration-500 ${
+                        scrolled 
+                          ? 'h-10 sm:h-11 md:h-12' 
+                          : 'h-12 sm:h-14 md:h-16'
+                      } w-auto object-contain transition-transform duration-200 group-hover:scale-105`}
+                      style={{ filter: isServicesPage ? 'brightness(0) invert(1)' : 'none' }}
+                    />
+                  </a>
+                </div>
 
                   <div className="hidden lg:flex lg:items-center lg:space-x-1 xl:space-x-2">
                     {navLinks.map((link) => (

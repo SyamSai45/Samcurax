@@ -774,7 +774,7 @@ const AppPage = () => {
             </h2>
           </div>
           <div className="w-full lg:w-1/2">
-            <p className="text-gray-700 text-xs sm:text-sm bg-black/80 p-3 sm:p-4 rounded-xl">
+            <p className="text-gray-700 text-xs sm:text-sm bg-blue/80 p-3 sm:p-4 rounded-xl">
               Clynix simplifies your healthcare journey by connecting you directly with trusted, licensed medical stores. 
               We eliminate the hassle of waiting in queues by bringing the pharmacy straight to your home.
             </p>
@@ -797,26 +797,44 @@ const AppPage = () => {
         </div>
       </section>
 
-      {/* Overlapping Images Section - Responsive */}
-      <section className="w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-[102px] mt-12 lg:mt-20">
-        <div className="relative max-w-[800px] lg:max-w-none mx-auto">
-          <div className="w-full max-w-[742px] h-auto rounded-[25px] sm:rounded-[29.13px] overflow-hidden bg-gray-200 shadow-lg mx-auto">
-            <img src={bottomImage} alt="Bottom" className="w-full h-full object-cover" />
-          </div>
-          <div className="absolute rounded-[25px] sm:rounded-[29.13px] overflow-hidden bg-gray-300 shadow-xl"
-            style={{
-              width: 'min(65%, 532px)',
-              height: 'auto',
-              bottom: '-15px',
-              right: '-10px',
-              borderRadius: '25px',
-              border: '10px solid white'
-            }}>
-            <img src={topImage} alt="Top" className="w-full h-full object-cover" />
-          </div>
-        </div>
-      </section>
-
+     {/* Overlapping Images Section - Fully Responsive with Bottom-Right Overlay */}
+<section className="w-full px-3 sm:px-4 md:px-6 lg:px-8 xl:px-[102px] mt-8 sm:mt-10 md:mt-12 lg:mt-20 mb-12 sm:mb-16 lg:mb-24">
+  <div className="relative mx-auto lg:mx-0" style={{ maxWidth: 'min(95%, 900px)' }}>
+    
+    {/* Bottom Image Container - Scales with screen size */}
+    <div className="relative w-full rounded-[16px] sm:rounded-[20px] md:rounded-[24px] lg:rounded-[29.13px] overflow-hidden bg-gray-200 shadow-lg"
+      style={{
+        maxWidth: 'min(100%, 742px)',
+        aspectRatio: '742/495'
+      }}>
+      <img 
+        src={bottomImage} 
+        alt="Bottom Dashboard View" 
+        className="w-full h-full object-cover"
+      />
+    </div>
+    
+    {/* Top Image Overlay - Positioned at bottom-right, scales with bottom image */}
+    <div 
+      className="absolute overflow-hidden bg-white shadow-xl"
+      style={{
+        width: 'min(65%, 532px)',
+        aspectRatio: '532/355',
+        bottom: 'clamp(-5px, -3%, -30px)',
+        right: 'clamp(-3px, -2%, -20px)',
+        borderRadius: 'clamp(12px, 3vw, 29.13px)',
+        border: 'clamp(3px, 1.5vw, 14px) solid white'
+      }}
+    >
+      <img 
+        src={topImage} 
+        alt="Top Dashboard View" 
+        className="w-full h-full object-cover"
+      />
+    </div>
+    
+  </div>
+</section>
       {/* Why Choose Clynix - Responsive */}
       <section className="w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-[102px] mt-16 lg:mt-24">
         <div className="w-full rounded-xl sm:rounded-2xl p-5 sm:p-8" style={{ border: '1px solid rgba(0,0,0,0.08)', background: 'linear-gradient(180deg, #f5f0ff 0%, #ffffff 100%)' }}>
